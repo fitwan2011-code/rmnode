@@ -1,0 +1,61 @@
+{
+  "name": "rmnode",
+  "version": "1.1.0",
+  "description": "Fast and beautiful CLI tool to find and remove node_modules folders to free up disk space",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "rmnode": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "dev": "tsx src/index.tsx",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "node_modules",
+    "cleaner",
+    "cli",
+    "tui",
+    "disk-space",
+    "cleanup",
+    "npm",
+    "yarn",
+    "pnpm",
+    "delete",
+    "remove",
+    "terminal",
+    "interactive"
+  ],
+  "author": "Firas Latrach <firaslatrach@gmail.com> (https://firaslatrach.vercel.app)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firaslatrech/rmnode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/firaslatrech/rmnode/issues"
+  },
+  "homepage": "https://github.com/firaslatrech/rmnode#readme",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "ink": "^4.4.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.43",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
